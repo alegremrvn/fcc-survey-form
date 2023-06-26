@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #242443;
+  color: #f3f3f3;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.question {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.response {
+  width: 90%;
+}
+
+%title-shared {
+  text-align: center;
+
+}
+
+.message {
+  @extend %title-shared;
+
+  font-size: 15px;
+}
+
+h1 {
+  @extend %title-shared;
+
+  font-size: 35px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+select {
+  height: 35px;
+  font-size: 18px;
+}
+
+input {
+  height: 31px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+span {
+  font-size: 18px;
+}
+
+label {
+  vertical-align: middle;
+}
+
+textarea {
+  height: 150px;
+  font-size: 18px;
+}
+
+button {
+  width: 40%;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 15px;
+  background-color: #37af65;
+  border: none;
+  color: #f3f3f3
+}
+
+hr {
+  margin: 20px 0 10px 0;
+}
