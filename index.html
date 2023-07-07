@@ -9,6 +9,15 @@
 </head>
 
 <body>
+  <dialog open>
+    <p>Hi. Thank you for visiting this resource. With this webpage, I tried to recreate 
+      <a href="https://survey-form.freecodecamp.rocks/" target="_blank">fCC's survey form</a>.
+    </p>
+    <form method="dialog">
+      <button>OK</button>
+    </form>
+  </dialog>
+
   <div class="container">
     <h1>freeCodeCamp Survey Form</h1>
     <p class="message">Thank you for taking the time to help us improve the platform</p>
@@ -71,7 +80,7 @@
       <p class="question">Any comments or suggestions?</p>
       <textarea class="response" placeholder="Enter your comment here..."></textarea>
 
-      <button type="submit">Submit</button>
+      <button id="submit-button" type="submit">Submit</button>
     </form>
   </div>
 </body>
